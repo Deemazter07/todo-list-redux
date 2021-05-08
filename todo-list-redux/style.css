@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#bedcfa, #da9ff9);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.circle {
+  background: linear-gradient(45deg, #aa2ee6, #344fa1);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 56%;
+}
+
+.square {
+  background: linear-gradient(45deg, #aa2ee6, #344fa1);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  left: 39%;
+  z-index: -1;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-right: 100px solid #aa2ee6;
+    border-bottom: 60px solid transparent;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+}
+
+.title {
+  padding: 150px 0;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  color: #b088f9;
+}
+
+.form {
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.0px);
+  -webkit-backdrop-filter: blur(7.0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  text-align: center;
+  border-style: dashed;
+  padding: 30px;
+}
+
+input {
+  border: 1px solid #3d84b8;
+  border-radius: 10px;
+  height: 30px;
+  width: 100%;
+  margin: 10px
+}
+
+button {
+  background-color: #4040;
+  border: 1px solid #98acf8;
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+  font-size: 14px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #98acf8;
+  color: #fff;
+}
+
+.content {
+  margin: 10px 0;
+  font-size: 20px;
+}
